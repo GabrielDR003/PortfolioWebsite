@@ -19,9 +19,20 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: aqua;
+  background-color: #4ecdc4;
 }
 
 .custom-left-margin {
     margin-left: 5%;
+}
+
+.footer-icon {
+    height: 32px;
+    width: auto;
+    margin-left: 10px; /* optional spacing */
+}
+
+.custom-link {
+    color: #fff !important;
+    text-decoration: none;
 }

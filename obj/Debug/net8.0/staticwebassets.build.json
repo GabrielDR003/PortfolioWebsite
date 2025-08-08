@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TTWJ//OwcyBFIIXjeBwWicCWVvSxalSNUC5td7eYceQ=",
+  "Hash": "s+1hwELlHUPfxuY+efdce7nIDPkUCkIIDO0KWWWWKys=",
   "Source": "MyPortfolioSite",
   "BasePath": "_content/MyPortfolioSite",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/github-logo.png",
+      "SourceId": "MyPortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/",
+      "BasePath": "_content/MyPortfolioSite",
+      "RelativePath": "images/github-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/github-logo.png"
     },
     {
       "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/js/site.js",

@@ -11,9 +11,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3 custom-navbar">
             <div class="container custom-left-margin">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">MyPortfolioSite</a>
+                <a class="navbar-brand text-light" asp-area="" asp-page="/Index">Gabriels Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                             <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Resume">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -38,8 +38,12 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - MyPortfolioSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <div class="container ">
+            <a class="custom-link" asp-page="/Resume">Resume</a>
+
+            <a class="custom-link" href="https://github.com/GabrielDR003" target="_blank">
+                GitHub <img src="~/images/github-logo.png" alt="GitHub" class="footer-icon" >
+            </a>
         </div>
     </footer>
 
