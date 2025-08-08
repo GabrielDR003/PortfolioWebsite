@@ -45,6 +45,12 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  background-color: #000000;
+  background-color: #1a535c;
 }
 
+.custom-navbar {
+    background-color: #1a535c !important;
+}
+.navbar-toggler {
+    background-color: #588b8b; /* Your desired color */
+}
