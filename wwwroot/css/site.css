@@ -27,12 +27,17 @@ body {
 }
 
 .footer-icon {
-    height: 32px;
+    height: 37px;
     width: auto;
-    margin-left: 10px; /* optional spacing */
+    margin-left: 5px; /* optional spacing */
 }
 
 .custom-link {
     color: #fff !important;
     text-decoration: none;
+    margin: 0 1em;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
 }

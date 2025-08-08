@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s+1hwELlHUPfxuY+efdce7nIDPkUCkIIDO0KWWWWKys=",
+  "Hash": "PoaePH8qKRNyLcG+W5kVpjsZPfjzzQhlGxChRU+NFAo=",
   "Source": "MyPortfolioSite",
   "BasePath": "_content/MyPortfolioSite",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/favicon.png",
+      "SourceId": "MyPortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/",
+      "BasePath": "_content/MyPortfolioSite",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/favicon.png"
+    },
+    {
       "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/github-logo.png",
       "SourceId": "MyPortfolioSite",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/github-logo.png"
+    },
+    {
+      "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/linkedin-logo.png",
+      "SourceId": "MyPortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/",
+      "BasePath": "_content/MyPortfolioSite",
+      "RelativePath": "images/linkedin-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/linkedin-logo.png"
     },
     {
       "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/js/site.js",
