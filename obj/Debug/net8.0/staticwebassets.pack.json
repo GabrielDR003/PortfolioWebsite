@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
       "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/github-logo.png",
       "PackagePath": "staticwebassets/images/github-logo.png"
+    },
+    {
+      "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/linkedin-logo.png",
+      "PackagePath": "staticwebassets/images/linkedin-logo.png"
     },
     {
       "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/js/site.js",
