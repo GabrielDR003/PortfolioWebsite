@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PoaePH8qKRNyLcG+W5kVpjsZPfjzzQhlGxChRU+NFAo=",
+  "Hash": "QX+xhoe4rsY/waQg8xFv3Gy5ftS6VHw2KxxA6nUE8Ts=",
   "Source": "MyPortfolioSite",
   "BasePath": "_content/MyPortfolioSite",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/files/Diaz Rivera Gabriel Resume.pdf",
+      "SourceId": "MyPortfolioSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/",
+      "BasePath": "_content/MyPortfolioSite",
+      "RelativePath": "files/Diaz Rivera Gabriel Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/Diaz Rivera Gabriel Resume.pdf"
     },
     {
       "Identity": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/favicon.png",
