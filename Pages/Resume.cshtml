@@ -1,8 +1,90 @@
 ﻿@page
-
 @{
-    ViewData["Title"] = "Resume Policy";
+    ViewData["Title"] = "Resume";
 }
+
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's Resume policy.</p>
+<!-- download resume link -->
+<div class="text-center mb-5">
+    <a href="~/files/Diaz Rivera Gabriel Resume.pdf" 
+       class="btn btn-primary download-btn" 
+       download>
+       Download Resume
+    </a>
+</div>
+
+
+<div class="container py-5">
+    <!-- Contact Info -->
+    <div class="text-center mb-5">
+        <h1>Gabriel Diaz Rivera</h1>
+        <p>
+            Woodburn, OR • 
+            <a href="https://www.linkedin.com/in/gabriel-diaz-rivera" target="_blank">LinkedIn</a> •
+            <a href="https://github.com/GabrielDR003" target="_blank">GitHub</a>
+        </p>
+    </div>
+
+    <!-- Summary -->
+    <div class="mb-5">
+        <h3>Summary</h3>
+        <p>Full‑stack software engineer with hands‑on experience delivering secure, data‑driven web products end‑to-end. Proven track record building ASP.NET Core APIs, integrating third‑party services with OAuth 2.0 (PKCE), and crafting mobile‑responsive front-ends with vanilla JS and Bootstrap. Passionate about clean architecture, performance tuning, and shipping features that delight users.</p>
+    </div>
+
+        <!-- Education -->
+    <div class="mb-5">
+        <h3>Education</h3>
+        <ul>
+            <li><strong>B.S. Computer Science</strong> - Western Oregon University, GPA: 3.74, Sep 2023 - June 2025</li>
+            <li><strong>Associate of Science Transfer in Computer Science</strong> - Chemeketa Community College, Sep 2021 - June 2023</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="mb-5">
+        <h3>Technical Skills</h3>
+        <ul>
+            <li><strong>Languages:</strong> C#, JavaScript (ES6+), HTML5, CSS3, SQL</li>
+            <li><strong>Frameworks / Libraries:</strong> ASP.NET Core (MVC & Web API), Entity Framework Core, Bootstrap 5, System.Text.Json, Newtonsoft.Json</li>
+            <li><strong>Cloud / DevOps:</strong> Azure App Service, Azure SQL, Git, GitHub Actions, IIS, Jira</li>
+            <li><strong>Concepts & Practices:</strong> Agile development, OAuth 2.0 + PKCE, RESTful API design, Dependency Injection, Repository & Unit-of-Work patterns, Async/await & parallelism, Secure token storage (AES-256), Background Worker Services, Logging & observability, Responsive & accessible UI, Test-driven development</li>
+            <li><strong>Testing & QA:</strong> NUnit, xUnit, Moq, Jest, jsdom, SpecFlow/Reqnroll (Gherkin), Selenium WebDriver (Chrome headless), In-memory EF Core, Coverage analysis (Coverlet)</li>
+        </ul>
+    </div>
+
+    <!-- Professional Projects -->
+    <div class="mb-5">
+        <h3>Professional Projects</h3>
+        <h5>GymBro — Fitness Web Application | Full-Stack Developer</h5>
+        <ul>
+            <li>Built 30+ secure RESTful endpoints in ASP.NET Core gated by [Authorize] and claims‑based identity, eliminating unauthorized access cases.</li>
+            <li>Integrated Fitbit via full OAuth 2.0 authorization‑code + PKCE flow; auto‑refresh logic.</li>
+            <li>Engineered a 7‑day step‑challenge feature: create/invite, live leaderboards, and background job that refreshes standings.</li>
+            <li>Modeled a normalized EF Core schema for biometric data, medals, competitions, and workout templates.</li>
+            <li>Implemented AES‑256 encryption of access/refresh tokens at rest.</li>
+            <li>Authored background worker services: medal‑awarding and competition updater, parallel‑processing users.</li>
+            <li>Crafted responsive Razor views & vanilla JS modules: dynamic modals, autocomplete friend search, progressive loading.</li>
+            <li>Led performance tuning: async LINQ aggregation cut median API response time.</li>
+            <li>Implemented 300+ automated tests across the stack — NUnit + Moq for C# services/controllers, Jest + jsdom for front-end modules, and SpecFlow + Selenium WebDriver for end-to-end flows.</li>
+            <li>Managed user stories and tasks using Jira; delivered features in Agile sprints with iterative feedback.</li>
+        </ul>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="mb-5">
+        <h3>Work Experience</h3>
+        <h5>Associate IS Desktop Technician — Ayin Health Solutions, Salem, OR (Aug 2024 – Current)</h5>
+        <ul>
+            <li>Deliver Tier 1 IT support to internal users across multiple departments, resolving hardware/software issues via phone, chat, email, remote access, and in-person.</li>
+            <li>Use EIT-MMC, Lockout Status, and Okta Admin Console to manage user identities, perform password resets, and troubleshoot multi-factor authentication problems.</li>
+            <li>Administer and troubleshoot Amazon Workspaces, using both MSRA and the AWS Console for remote access, session resets, and performance issue resolution.</li>
+            <li>Provision and reimage thin clients via HP Device Management, preparing fully configured systems and coordinating hardware shipping for new and remote users.</li>
+            <li>Order and manage hardware inventory, coordinating replacements and vendor warranty claims to ensure minimal user downtime.</li>
+            <li>Track and resolve issues in Zendesk, ensuring SLA adherence and providing clear, detailed ticket documentation to maintain service transparency and accountability.</li>
+            <li>Create end-user documentation, internal KB articles, and training resources to support self-service and user onboarding.</li>
+            <li>Collaborate on IT projects involving system upgrades, new user onboarding, and process documentation - supporting a wide range of business functions.</li>
+            <li>Use EZOfficeInventory to track IT hardware assets, manage equipment lifecycles, and ensure accurate assignment and returns across the organization.</li>
+        </ul>
+    </div>
+</div>

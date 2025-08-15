@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/files/Diaz Rivera Gabriel Resume.pdf",
+      "PackagePath": "staticwebassets/files/Diaz Rivera Gabriel Resume.pdf"
+    },
+    {
       "Id": "/Users/gabrieldiaz/Desktop/MyPortfolioSite/wwwroot/images/favicon.png",
       "PackagePath": "staticwebassets/images/favicon.png"
     },

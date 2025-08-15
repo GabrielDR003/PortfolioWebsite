@@ -20,6 +20,7 @@ html {
 body {
   margin-bottom: 60px;
   background-color: #4ecdc4;
+  color: white;
 }
 
 .custom-left-margin {
@@ -30,6 +31,7 @@ body {
     height: 37px;
     width: auto;
     margin-left: 5px; /* optional spacing */
+
 }
 
 .custom-link {
@@ -40,4 +42,16 @@ body {
 
 .custom-link:hover {
     text-decoration: underline;
+}
+
+.download-btn {
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    color: #fff;
+    float: left;
+}
+
+.download-btn:hover {
+    background-color: #1861ac;
+    border-color: #154d8f;
 }
